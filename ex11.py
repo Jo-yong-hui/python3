@@ -23,7 +23,6 @@ for i in range(1,100):
 
     print(f'{i} {clap}', end=',')
 print()
-
 # 미국판 369 게임 - buzz
 # https://www.wikihow.com/Play-Buzz
 

@@ -181,7 +181,6 @@ print()
 #         table  += 1
 #     index += 1
 #     print("")
-
 # 별 트리 출력하기
 print('     *')
 print('    ***')
