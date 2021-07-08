@@ -12,6 +12,7 @@ southwave = float(input('남해 앞바다 물결을 입력하세요'))
 eastwave = float(input('동해 앞바다 물결을 입력하세요'))
 westwave = float(input('서해 앞바다 물결을 입력하세요'))
 
+# %s: 문자열, %d : 정수
 print('--------------------------')
 print('내일 날씨 예보입니다')
 print(day + '요일인' + date+
@@ -29,12 +30,12 @@ print('지금까지 ' + date + ' ' + day + ' 요일 날씨 예보였습니다')
 
 print('--------------------------')
 print('내일 날씨 예보입니다')
-print('{0} 요일인 {1} 의 아침 최저 기온은 {2}도, 낮 최고 기온은 {3}도로 예보되었습니다'
+print('{0} 요일인 {1}의 아침 최저 기온은 {2}도, 낮 최고 기온은 {3}도로 예보되었습니다'
       .format(day, date, mintemp, maxtemp))
 print('비올 확률은 {0} %이고, 미세먼지는 {1} 수준일것으로 예상됩니다.'
       .format(rainprop, airrate))
 print('일출시간은 {0}이고, 일몰시간은{1}입니다'
-      .format(sunrise,sunset))
+      .format(sunrise, sunset))
 print('바다의 물결은 남해 앞바다 {0}m, 동해 앞바다{1}m, 서해앞바다{2}m 높이로 일겠습니다'
       .format(southwave, eastwave, westwave))
 print('지금까지 {0} {1}요일 날씨 예보였습니다'
@@ -48,7 +49,7 @@ print('비올 확률은 %d이고, 미세먼지는 %s수준일것으로 예상됩
       % (rainprop, airrate))
 print('일출시간은 %s 이고, 일몰시간은 %s 입니다'
       % (sunrise, sunset))
-print('바다의 물결은 남해앞바다 %.1fm, 동해 앞바다 %.1fm,서해앞바다 %.1fm 높이로 일겠습니다'
+print('바다의 물결은 남해앞바다 %.1fm, 동해 앞바다 %.1fm, 서해앞바다 %.1fm 높이로 일겠습니다'
       % (southwave, eastwave, westwave))
 print('지금까지 %s %s요일 날씨 예보였습니다'
       % (date, day))

@@ -19,3 +19,4 @@ print(f'\n사용량 : {etro:.1f} kwh\n'
       f'기본요금 : {rate:,} 원\n'
       f'단가 : {price} 원\n'
       f'전기 요금 : {fare:,} 원')
+

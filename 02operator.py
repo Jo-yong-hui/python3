@@ -210,28 +210,11 @@ result = '수급대상자' if (isTarget) else '수급 미대상자'
 print(result)
 
 
-# 사용자로부터 숫자(1 - 9)를 하나 입력 받아, 구구단을 출력하는 프로그램을 작성해보세요
-num = int(input("1~9 사이의 단을 입력하세요 : "))
-while ( num < 10):
-    num = int(input("1~9 사이의 단을 다시 입력하세요 : "))
-    for i in range(1, 9):
-        print(num,"*", i, "=", num * i)
-
-# 지금 현재 수지의 통장잔액이 25,000원이다. 은행이자가 연 6%라 가정할 때,
-# 몇 년이 지나야 통장잔액이 지금의 2배를 넘는지 알아보는 프로그램을 작성하세요
 
 
-# 키보드로 정수를 하나 입력받아 그 값이 정수, 음수, 0인지 구분하는 프로그램을 작성하시오.
-keyboard1 = int(input(" 정수는? "))
-keyboard2 = int(input(" 음수는? "))
-keyboard3 = int(input(" 0은? "))
-result = '정수' if (keyboard1 > 0) else \
-         '음수' if( keyboard2 < 0) else \
-            0 if ( keyboard3 ==0) else \
-print(result)
 
 
-# 각각의 경우에 따라 “정수입니다”, “음수입니다”, “0입니다”라고 출력하도록 한다.
+
 
 
 
