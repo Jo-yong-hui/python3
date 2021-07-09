@@ -16,7 +16,7 @@ import random as r
 #         magic.append(r.randint(1,45))
 #     return magic
 
-def readLotto():    # 사용자에게 로또 입력받음
+def readLotto():  # 사용자에게 로또 입력받음
     magic = []
     i = 0
     while len(magic) < 6:
